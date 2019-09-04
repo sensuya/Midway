@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -13,7 +14,8 @@
   },
   "devDependencies": {
     "@vue/component-compiler-utils": "^3.0.0",
-    "vue-template-compiler": "^2.6.10",
-    "vue-hot-reload-api": "^2.3.3"
+    "parcel-bundler": "^1.12.3",
+    "vue-hot-reload-api": "^2.3.3",
+    "vue-template-compiler": "^2.6.10"
   }
 }
