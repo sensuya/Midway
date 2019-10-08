@@ -1,15 +1,14 @@
-import 'babel-polyfill'
-import Vue from 'vue'
-import Vuetify from 'vuetify'
-import 'vuetify/dist/vuetify.min.css'
-import App from './App'
+import 'babel-polyfill';
+import Vue from 'vue';
+import Vuetify from 'vuetify';
+import 'vuetify/dist/vuetify.min.css';
 
-Vue.use(Vuetify)
+import App from './App';
 
-const opts = { theme: { dark: true } };
+Vue.use(Vuetify);
 
 new Vue({
   el: '#app',
   vuetify: new Vuetify(),
-  render: h => h(App)
-})
+  render: h => h(App),
+});
