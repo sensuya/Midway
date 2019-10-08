@@ -77,13 +77,19 @@
         </v-layout>
       </v-container>
     </v-content>
+    <Footer />
   </v-app>
 </div>
 </template>
 
 <script>
+import Footer from './components/Footer.vue';
+
 export default {
-  name: 'App',
+  name: 'App; ',
+  components: {
+    'Footer': Footer
+  },
   data() {
     return {
       message: 'Using Parcel In A Vue.js App',
