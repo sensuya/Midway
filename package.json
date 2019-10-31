@@ -6,6 +6,7 @@
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
+    "lint": "eslint --ext .js,.vue src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -28,8 +29,14 @@
     "@babel/preset-env": "^7.5.5",
     "@vue/component-compiler-utils": "^3.0.0",
     "autoprefixer": "^9.6.1",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-vue": "^5.2.3",
     "parcel-bundler": "^1.12.3",
+    "parcel-plugin-eslint": "^1.0.7",
     "postcss-modules": "^1.4.1",
+    "prettier": "^1.18.2",
     "sass": "^1.23.0-module.beta.1",
     "vue-template-compiler": "^2.6.10"
   }
