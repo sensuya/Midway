@@ -11,7 +11,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/vue-fontawesome": "^0.1.7",
+    "@mdi/font": "^4.4.95",
+    "@mdi/js": "^4.4.95",
     "babel-polyfill": "^6.26.0",
+    "font-awesome": "^4.7.0",
     "vue": "^2.6.10",
     "vue-hot-reload-api": "^2.3.3",
     "vuetify": "^2.0.19"
