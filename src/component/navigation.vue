@@ -1,26 +1,14 @@
 <template>
-  <v-list dense>
-    <v-list-item :key="item.key" v-for="item in listItem">
-      <v-list-item-action>
-        <v-icon>{{ item.icon }}</v-icon>
-      </v-list-item-action>
-      <v-list-item-content>
-        <v-list-item-title>{{ item.title }}</v-list-item-title>
-      </v-list-item-content>
-    </v-list-item>
-  </v-list>
+  <div>
+    <v-card class="warning lighten-2">
+      <router-link to="/foo"><v-btn text>우파</v-btn></router-link>
+      <router-link to="/bar"><v-btn text>좌파</v-btn></router-link>
+    </v-card>
+  </div>
 </template>
 
 <script>
-export default {
-  name: 'Navigation',
-  data() {
-    return {
-      listItem: [
-        { key: 1, icon: 'home', title: '홈' },
-        { key: 2, icon: 'mdi-tennis', title: '자유게시판' },
-      ],
-    };
-  },
-};
+export default {};
 </script>
+
+<style></style>
